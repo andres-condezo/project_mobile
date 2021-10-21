@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-<!-- [Live Demo Link](https://livedemo.com) -->
+[Live Demo Link](https://andres-condezo.github.io/Portfolio/)
 
 
 ## Getting Started
@@ -26,12 +26,13 @@ No prerequisites are necessary for this project
 ### Setup
 
 - Clone the repository with the command:
+
 	<code>
 $ git clone https://github.com/andres-condezo/Portfolio.git
 	</code>
 
 ### Usage
-- Open the file named index.html in your browser.
+- Open the file named 'index.html' in your browser.
 
 
 ## Authors
