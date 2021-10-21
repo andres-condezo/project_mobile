@@ -27,7 +27,7 @@ No prerequisites are necessary for this project
 
 - Clone the repository with the command:
 
-	<code>
+<code>
 $ git clone https://github.com/andres-condezo/Portfolio.git
 	</code>
 
