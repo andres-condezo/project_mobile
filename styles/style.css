@@ -113,7 +113,7 @@ main {
   align-items: center;
   background-image: url(../img/bg-headline.png);
   background-repeat: no-repeat;
-  background-size: cover
+  background-size: cover;
 }
 
 main .headline {
