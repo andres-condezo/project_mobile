@@ -1,22 +1,22 @@
 /* CSS variables */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root{
-  --neutral-color: #172B4D;
-  --primary-color: #7F8CFF;
-  --secundary-color: #2230D2;
+:root {
+  --neutral-color: #172b4d;
+  --primary-color: #7f8cff;
+  --secundary-color: #2230d2;
   --font-sans: 'Poppins', sans-serif;
 }
 
 /* Reset default styles */
-*{
-  margin: 0px;
-  padding: 0px;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 /* Setting font family and size */
-html{
+html {
   font-family: var(--font-sans), sans-serif;
   font-size: 62.5%;
 }
@@ -33,7 +33,7 @@ body {
   overflow-x: hidden;
 }
 
-header{
+header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -80,16 +80,16 @@ header .nav__button i {
 
 header .nav__button:hover {
   color: white;
-  background-color: var(--primary-color)
+  background-color: var(--primary-color);
 }
 
 header .nav__button:active {
   color: white;
-  background-color: var(--secundary-color)
+  background-color: var(--secundary-color);
 }
 
 header .nav__button:disabled,
-header .nav__button[disabled]{
+header .nav__button[disabled] {
   color: var(--neutral-color);
   background-color: white;
 }
@@ -121,7 +121,7 @@ main .headline {
   font-weight: bold;
   font-size: 4rem;
   line-height: 5.2rem;
-  color: var(--neutral-color)
+  color: var(--neutral-color);
 }
 
 .headline p {
