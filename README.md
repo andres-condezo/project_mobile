@@ -16,8 +16,8 @@
 
 ## Getting Started
 
-In order to see the portfolio in your browser you must click on the link "Live Demo"
-To get a local copy up and running follow these simple example steps:
+- In order to see the portfolio in your browser you must click on the link "Live Demo"
+- To get a local copy up and running follow these simple example steps:
 
 ### Prerequisites
 
@@ -37,7 +37,7 @@ $ git clone https://github.com/andres-condezo/Portfolio.git
 
 ## Authors
 
-👤 **Author1**
+👤 **Andrés Condezo Monge**
 
 - GitHub: [@andres-condezo](https://github.com/andres-condezo)
 - Twitter: [@andres_condezo](https://twitter.com/andres_condezo)
