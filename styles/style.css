@@ -1,0 +1,174 @@
+/* CSS variables */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --neutral-color: #172b4d;
+  --primary-color: #7f8cff;
+  --secundary-color: #2230d2;
+  --font-sans: 'Poppins', sans-serif;
+}
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Setting font family and size */
+html {
+  font-family: var(--font-sans), sans-serif;
+  font-size: 62.5%;
+}
+
+/* Setting mobile first styles */
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+header nav .header__ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-width: 375px;
+  height: 44px;
+  background-color: white;
+  margin-top: 1rem;
+  list-style-type: none;
+}
+
+header nav ul li .header__logo {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 2.8rem;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+header nav ul li .header__logo:hover {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+header nav ul li .header__logo:active {
+  color: white;
+  background-color: var(--secundary-color);
+}
+
+header nav ul li .header__logo:disabled,
+header nav ul li .header__logo[disabled] {
+  color: var(--neutral-color);
+  background-color: white;
+}
+
+header .nav__button {
+  width: 40px;
+  height: 40px;
+  margin-right: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+  background-color: white;
+  border-style: none;
+  text-decoration: none;
+}
+
+header .nav__button i {
+  font-size: 2rem;
+}
+
+header .nav__button:hover {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+header .nav__button:active {
+  color: white;
+  background-color: var(--secundary-color);
+}
+
+header .nav__button:disabled,
+header .nav__button[disabled] {
+  color: var(--neutral-color);
+  background-color: white;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  min-width: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url(../img/bg-headline.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 2.4rem;
+}
+
+.headline h1 {
+  width: 32.7rem;
+  margin-top: 10rem;
+  font-family: var(--font-sans);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 5.2rem;
+  color: var(--neutral-color);
+}
+
+.headline p {
+  color: var(--neutral-color);
+  width: 30rem;
+  margin-top: 1.2rem;
+  margin-right: 2.4rem;
+  font-family: var(--font-sans);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+}
+
+.headline span {
+  font-family: var(--font-sans);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--primary-color);
+  margin-top: 1.2rem;
+}
+
+.headline .social-media__ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.headline .headline__social-media {
+  color: var(--neutral-color);
+  margin-top: 1.2rem;
+}
+
+.headline .headline__social-media a {
+  margin-right: 2rem;
+}
