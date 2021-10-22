@@ -72,6 +72,7 @@ header .nav__button {
   color: var(--primary-color);
   background-color: white;
   border-style: none;
+  text-decoration: none;
 }
 
 header .nav__button i {
