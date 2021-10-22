@@ -2,7 +2,7 @@
 
 >	This is my portfolio a tool where I will be showing my work.
 
-<!-- ![screenshot]\(./app_screenshot.png) -->
+![screenshot](./img/screenshot.png)
 
 
 ## Built With
