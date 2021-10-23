@@ -6,7 +6,7 @@
   --primary-color: #7f8cff;
   --secundary-color: #2230d2;
   --grey-color: #7a869a;
-  --gray-color: #eBeBff;
+  --gray-color: #ebeBff;
   --button-color: #396df2;
   --font-sans: 'Poppins', sans-serif;
 }
@@ -237,7 +237,8 @@ span {
   margin: 0 1rem;
 }
 
-.works__left-block .frame-2 .role, .year {
+.works__left-block .frame-2 .role,
+.year {
   font-family: var(--font-sans);
   font-style: normal;
   font-weight: 600;
@@ -252,7 +253,7 @@ span {
   font-weight: normal;
   font-size: 1.5rem;
   line-height: 2.4rem;
-  color: var(--neutral-color)
+  color: var(--neutral-color);
 }
 
 .works__left-block .works__tags {
