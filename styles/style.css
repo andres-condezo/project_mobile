@@ -184,16 +184,20 @@ span {
   grid-template-columns: auto;
   grid-row-gap: 10rem;
   justify-content: start;
-  margin: 18.4rem 0 8rem 6rem;
+  margin: 18.4rem 0 8rem 3rem;
 }
 
 .works__card {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  padding: 2rem;
   flex-direction: column;
   margin-bottom: 2rem;
+  background: #ffffff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
 }
 
 .snapshoot img {
@@ -227,6 +231,7 @@ span {
   font-size: 1.3rem;
   font-weight: 600;
   color: var(--neutral-color);
+  margin: 0;
 }
 
 .works__left-block .frame-2 .counter {
@@ -244,6 +249,7 @@ span {
   font-weight: 600;
   font-size: 1.3rem;
   color: var(--grey-color);
+  margin: 0;
 }
 
 .works__left-block .works__primary-par {
